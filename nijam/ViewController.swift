@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+var nam = "hello to"
     override func viewDidLoad() {
         super.viewDidLoad()
         print("hello")

@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1321211272BE52700F0448A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1321210272BE52700F0448A /* AppDelegate.swift */; };
+		E1321213272BE52700F0448A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1321212272BE52700F0448A /* SceneDelegate.swift */; };
+		E1321215272BE52700F0448A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1321214272BE52700F0448A /* ViewController.swift */; };
+		E1321218272BE52700F0448A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1321216272BE52700F0448A /* Main.storyboard */; };
+		E132121A272BE52B00F0448A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1321219272BE52B00F0448A /* Assets.xcassets */; };
+		E132121D272BE52B00F0448A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E132121B272BE52B00F0448A /* LaunchScreen.storyboard */; };
+		E1321228272BE52B00F0448A /* nijamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1321227272BE52B00F0448A /* nijamTests.swift */; };
+		E1321233272BE52B00F0448A /* nijamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1321232272BE52B00F0448A /* nijamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1321224272BE52B00F0448A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1321205272BE52700F0448A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E132120C272BE52700F0448A;
+			remoteInfo = nijam;
+		};
+		E132122F272BE52B00F0448A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1321205272BE52700F0448A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E132120C272BE52700F0448A;
+			remoteInfo = nijam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E132120D272BE52700F0448A /* nijam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nijam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1321210272BE52700F0448A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1321212272BE52700F0448A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1321214272BE52700F0448A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1321217272BE52700F0448A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1321219272BE52B00F0448A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E132121C272BE52B00F0448A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E132121E272BE52B00F0448A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1321223272BE52B00F0448A /* nijamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nijamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1321227272BE52B00F0448A /* nijamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nijamTests.swift; sourceTree = "<group>"; };
+		E1321229272BE52B00F0448A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E132122E272BE52B00F0448A /* nijamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nijamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1321232272BE52B00F0448A /* nijamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nijamUITests.swift; sourceTree = "<group>"; };
+		E1321234272BE52B00F0448A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E132120A272BE52700F0448A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1321220272BE52B00F0448A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132122B272BE52B00F0448A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1321204272BE52700F0448A = {
+			isa = PBXGroup;
+			children = (
+				E132120F272BE52700F0448A /* nijam */,
+				E1321226272BE52B00F0448A /* nijamTests */,
+				E1321231272BE52B00F0448A /* nijamUITests */,
+				E132120E272BE52700F0448A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E132120E272BE52700F0448A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E132120D272BE52700F0448A /* nijam.app */,
+				E1321223272BE52B00F0448A /* nijamTests.xctest */,
+				E132122E272BE52B00F0448A /* nijamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E132120F272BE52700F0448A /* nijam */ = {
+			isa = PBXGroup;
+			children = (
+				E1321210272BE52700F0448A /* AppDelegate.swift */,
+				E1321212272BE52700F0448A /* SceneDelegate.swift */,
+				E1321214272BE52700F0448A /* ViewController.swift */,
+				E1321216272BE52700F0448A /* Main.storyboard */,
+				E1321219272BE52B00F0448A /* Assets.xcassets */,
+				E132121B272BE52B00F0448A /* LaunchScreen.storyboard */,
+				E132121E272BE52B00F0448A /* Info.plist */,
+			);
+			path = nijam;
+			sourceTree = "<group>";
+		};
+		E1321226272BE52B00F0448A /* nijamTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1321227272BE52B00F0448A /* nijamTests.swift */,
+				E1321229272BE52B00F0448A /* Info.plist */,
+			);
+			path = nijamTests;
+			sourceTree = "<group>";
+		};
+		E1321231272BE52B00F0448A /* nijamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1321232272BE52B00F0448A /* nijamUITests.swift */,
+				E1321234272BE52B00F0448A /* Info.plist */,
+			);
+			path = nijamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E132120C272BE52700F0448A /* nijam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1321237272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijam" */;
+			buildPhases = (
+				E1321209272BE52700F0448A /* Sources */,
+				E132120A272BE52700F0448A /* Frameworks */,
+				E132120B272BE52700F0448A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nijam;
+			productName = nijam;
+			productReference = E132120D272BE52700F0448A /* nijam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1321222272BE52B00F0448A /* nijamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132123A272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijamTests" */;
+			buildPhases = (
+				E132121F272BE52B00F0448A /* Sources */,
+				E1321220272BE52B00F0448A /* Frameworks */,
+				E1321221272BE52B00F0448A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1321225272BE52B00F0448A /* PBXTargetDependency */,
+			);
+			name = nijamTests;
+			productName = nijamTests;
+			productReference = E1321223272BE52B00F0448A /* nijamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E132122D272BE52B00F0448A /* nijamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E132123D272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijamUITests" */;
+			buildPhases = (
+				E132122A272BE52B00F0448A /* Sources */,
+				E132122B272BE52B00F0448A /* Frameworks */,
+				E132122C272BE52B00F0448A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1321230272BE52B00F0448A /* PBXTargetDependency */,
+			);
+			name = nijamUITests;
+			productName = nijamUITests;
+			productReference = E132122E272BE52B00F0448A /* nijamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1321205272BE52700F0448A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = RAJKUMAR;
+				TargetAttributes = {
+					E132120C272BE52700F0448A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E1321222272BE52B00F0448A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E132120C272BE52700F0448A;
+					};
+					E132122D272BE52B00F0448A = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E132120C272BE52700F0448A;
+					};
+				};
+			};
+			buildConfigurationList = E1321208272BE52700F0448A /* Build configuration list for PBXProject "nijam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1321204272BE52700F0448A;
+			productRefGroup = E132120E272BE52700F0448A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E132120C272BE52700F0448A /* nijam */,
+				E1321222272BE52B00F0448A /* nijamTests */,
+				E132122D272BE52B00F0448A /* nijamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E132120B272BE52700F0448A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E132121D272BE52B00F0448A /* LaunchScreen.storyboard in Resources */,
+				E132121A272BE52B00F0448A /* Assets.xcassets in Resources */,
+				E1321218272BE52700F0448A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1321221272BE52B00F0448A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132122C272BE52B00F0448A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1321209272BE52700F0448A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1321215272BE52700F0448A /* ViewController.swift in Sources */,
+				E1321211272BE52700F0448A /* AppDelegate.swift in Sources */,
+				E1321213272BE52700F0448A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132121F272BE52B00F0448A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1321228272BE52B00F0448A /* nijamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E132122A272BE52B00F0448A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1321233272BE52B00F0448A /* nijamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1321225272BE52B00F0448A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E132120C272BE52700F0448A /* nijam */;
+			targetProxy = E1321224272BE52B00F0448A /* PBXContainerItemProxy */;
+		};
+		E1321230272BE52B00F0448A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E132120C272BE52700F0448A /* nijam */;
+			targetProxy = E132122F272BE52B00F0448A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1321216272BE52700F0448A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1321217272BE52700F0448A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E132121B272BE52B00F0448A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E132121C272BE52B00F0448A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1321235272BE52B00F0448A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1321236272BE52B00F0448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1321238272BE52B00F0448A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1321239272BE52B00F0448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E132123B272BE52B00F0448A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nijam.app/nijam";
+			};
+			name = Debug;
+		};
+		E132123C272BE52B00F0448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nijam.app/nijam";
+			};
+			name = Release;
+		};
+		E132123E272BE52B00F0448A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nijam;
+			};
+			name = Debug;
+		};
+		E132123F272BE52B00F0448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nijamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vrindatechapp.nijamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nijam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1321208272BE52700F0448A /* Build configuration list for PBXProject "nijam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1321235272BE52B00F0448A /* Debug */,
+				E1321236272BE52B00F0448A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1321237272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1321238272BE52B00F0448A /* Debug */,
+				E1321239272BE52B00F0448A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132123A272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132123B272BE52B00F0448A /* Debug */,
+				E132123C272BE52B00F0448A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E132123D272BE52B00F0448A /* Build configuration list for PBXNativeTarget "nijamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E132123E272BE52B00F0448A /* Debug */,
+				E132123F272BE52B00F0448A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1321205272BE52700F0448A /* Project object */;
+}
